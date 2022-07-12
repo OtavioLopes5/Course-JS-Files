@@ -1,7 +1,5 @@
 const alunos = ['Otávio', 'Arthur', 'Lucilene'];
 
-
-
 alunos.push('Henrique'); // * Adiciona no array.
 alunos.unshift('Luisa'); // * Adiciona no começo do array
 

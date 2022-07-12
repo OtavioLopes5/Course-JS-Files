@@ -5,4 +5,4 @@ That's my full course exercises
 
 - Javascript, TypeScript - front-end, back-end (Full Stack) - Node, Express, noSQL, React, hooks, Redux, Design Patterns
 
-- 15% complete 
+- 20% complete 

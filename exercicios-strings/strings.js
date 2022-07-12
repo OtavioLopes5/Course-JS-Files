@@ -1,0 +1,20 @@
+let ppp = document.querySelector('.ola') // seleciona uma classe
+let nome = prompt("Digite seu nome")
+let lNome = nome.toLowerCase();
+let bNome = nome.toUpperCase();
+let qntNome = lNome.length;
+let segLetraNome = lNome.charAt(1); //mostra qual o caracteres no índice X
+let indPrimeiro = lNome.indexOf('o');
+let indUltimo = lNome.lastIndexOf('o'); // mostra onde está o índice - caso n tenha o resultado é -1
+let ultLetra = lNome.slice(-3); //Corta a partir do índice
+let separarPalavras = lNome.split(' '); // ! separa quando tiver espaços - vira um array
+
+ppp.innerHTML += `Seu nome é ${nome} </br>`;
+ppp.innerHTML += `A segunda letra do seu nome é: ${segLetraNome}</br>`;
+ppp.innerHTML += `Seu nome tem: ${qntNome} letras</br>`;
+ppp.innerHTML += `Qual o primeiro índice da letra o no seu nome? ${indPrimeiro}</br> `;
+ppp.innerHTML += `Qual o ultimo índice da letra o no seu nome? ${indUltimo}</br> `;
+ppp.innerHTML += `As últimas 3 letras do seu nome são: ${ultLetra}</br>`;
+ppp.innerHTML += `As palavras do seu nome são: ${separarPalavras}</br>`;
+ppp.innerHTML += `Seu nome com letras Maiúsculas: ${bNome}</br>`;
+ppp.innerHTML += `Seu nome com letras Minusculas: ${lNome}</br>`;
